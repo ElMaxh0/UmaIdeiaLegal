@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\NodeJs\node.exe C:\Users\picin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add Styled-Components
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files\Git\cmd;C:\Program Files\NodeJs\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\xampp\php;C:\Program Files (x86)\ComposerPHP;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\picin\AppData\Local\Microsoft\WindowsApps;C:\Users\picin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Users\picin\AppData\Roaming\npm;C:\Users\picin\AppData\Roaming\Composer\vendor\bin;C:\xampp\php;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/Styled-Components: Not found
+      at Request.params.callback [as _callback] (C:\Users\picin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66140:18)
+      at Request.self.callback (C:\Users\picin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140885:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\picin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141857:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\picin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141779:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1334:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "umaideialegal",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ElMaxh0/UmaIdeiaLegal.git",
+    "author": "ElMaxh0 <picinattoalexandre@outtlook.com.br>",
+    "license": "MIT",
+    "scripts": {
+      "dev": "next dev"
+    },
+    "dependencies": {
+      "next": "^12.0.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
