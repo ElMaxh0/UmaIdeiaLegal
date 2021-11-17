@@ -2,3 +2,7 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+body>div{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
